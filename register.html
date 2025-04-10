@@ -26,18 +26,79 @@
     </header>
 
     <main>
-      <h1>INDBERET</h1>
+      <h1>Krise?</h1>
       <section id="form-section">
         <article id="form-info">
-          <h2>Overskrift</h2>
+          <h2>Udfyld formularen og slip for skokrise</h2>
           <p>Tekst</p>
         </article>
-        <form id="webform"></form>
+
+        <form>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="worried"> >Har du skokrise?</label>
+              <input type="radio" id="yes" name="worried" value="yes" />Ja <input type="radio" id="no" name="worried" value="no" />Nej
+            </div>
+
+            <div class="form-group">
+              <label for="area">Vælg dit område</label>
+              <select name="area" id="area">
+                <option value="Frederiksberg">Frederiksberg Hundegård</option>
+                <option value="Nørrebro">Nørrebro Hundegård</option>
+                <option value="Østerbro">Østerbro Hundegård</option>
+                <option value="Vesterbro">Kongens Have</option>
+                <option value="Valby">Valby hundegård</option>
+                <option value="Andet">Andet</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="symptoms"> I hvor høj grad er du i stand til ...? </label>
+              <input type="range" id="symptoms" name="symptoms" value="0" min="0" max="100" />
+            </div>
+
+            <div class="form-group">
+              <label for="parasite"> Hvilken ...? </label>
+              <input type="radio" id="ticks" name="parasite" value="ticks" />Flåter
+
+              <input type="radio" id="lice" name="parasite" value="lice" />Lopper
+
+              <input type="radio" id="worm" name="parasite" value="worm" />Orme
+            </div>
+
+            <div class="form-group">
+              <label for="e-mail"> Indtast e-mail og få råd</label>
+              /><span class="instruktion">Skal indeholde et @ tegn</span>
+
+              <input type="text" id="e-mail" name="e-mail" required />
+              <button id="submit" type="submit">Send</button>
+            </div>
+          </div>
+        </form>
       </section>
+
+      <!-- <form id="webform"></form>
+      </section> -->
       <section id="form-summary">
-        <h2>Summary</h2>
-        <article>
-          <p class="placeholder">Opsummering</p>
+        <h2>Resultat</h2>
+        <article id="sum">
+          <div>
+            <h3>Har du skokrise?</h3>
+            <p>Ja</p>
+          </div>
+          <div>
+            <h3>Skriv nr 2 her</h3>
+            <p>Skriv svaret her</p>
+          </div>
+          <div>
+            <h3>Skriv nr 3 her</h3>
+            <p>Skriv svaret her</p>
+          </div>
+          <div>
+            <h3>Skriv nr 4 her</h3>
+            <p>Skriv svaret her</p>
+          </div>
+          <button id="sumbit" type="sumbit">Godkend og luk</button>
         </article>
       </section>
     </main>
