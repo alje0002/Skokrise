@@ -8,7 +8,7 @@
 
   /* CAN BE DELETED WHEN THE PLACEHOLDER CLASS IS DELETED */
   --placeholder-bg-color: #eb9e1a; /* used */
-  --placeholder-font-color: #575c61; /* used */
+  --placeholder-font-color: #000000; /* used */
 
   /* NOT USED AT THE MOMENT */
   --info-color: #17a2b8;
