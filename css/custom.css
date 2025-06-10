@@ -45,7 +45,7 @@
 
   /* Text colors */
   --logotype-color: #ffffff;
-  --headline-color: #bbc3ca;
+  --headline-color: black;
   --headline-color-inverted: #f9fcfe;
   --bodytext-color: #575c61;
   --bodytext-color-inverted: #f9fcfe;
@@ -58,8 +58,8 @@
   --form-submit-color-inverted: #bbc3ca;
 
   /* Background colors */
-  --logotype-background-color: #a9aaae;
-  --header-background-color: #cfd5e5;
+  --logotype-background-color: #ffffff;
+  --header-background-color: #ff4b00;
   --article-background-color: #dbdde3;
   --news-background-color: #dbdde3;
   --news-background-color-inverted: #eeebe9;
